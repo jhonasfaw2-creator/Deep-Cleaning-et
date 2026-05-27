@@ -19,7 +19,13 @@ interface Booking {
   created_at: string;
 }
 
+
 export default function AdminPage() {
+  return (
+    <div>
+      <h1>Admin Page Works 🚀</h1>
+    </div>
+  );
   const router = useRouter();
 
   const [bookings, setBookings] = useState<Booking[]>([]);
